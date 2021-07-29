@@ -1,6 +1,4 @@
-.main-nav {
-  color:red;
-}
+/* Подключение шрифтов */
 /* open-sans-regular - latin_cyrillic */
 @font-face {
   font-family: 'Open Sans';
@@ -28,8 +26,6 @@
        url('../fonts/open-sans-v20-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/open-sans-v20-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
-
 /* raleway-300 - latin_cyrillic */
 @font-face {
   font-family: 'Raleway';
@@ -48,7 +44,6 @@
        url('../fonts/raleway-v22-latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
        url('../fonts/raleway-v22-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-
 /* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: 'Roboto';
@@ -59,8 +54,56 @@
        url('../fonts/roboto-v27-latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-.main-nav_logo {
+/* Общие стили */
+* {
+  box-sizing: border-box;   /* все границы и отступы учитывать в ширине и высоте элемента */
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;   /* после запятой альтернативный шрифт */
+}
+
+h2 {
+  font-size: 58px;
+  line-height: 68px;   /* расстояние между стороками */
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;    /* если определены 2 значения то первое отступ сверху второе внешний отступ левой и правой стороны */
+}
+
+img {
+  display: block;   /* картинки расположены в столбик */
+  width: 100%;
+}
+
+/* Кнопка */
+/* Шапка сайта */
+/* Промо */
+/* Услуги */
+/* Мероприятия */
+/* Локации */
+/* Команда */
+/* Контакты */
+/* Подвал */
+
+
+
+
+
+
+
+
+
+.main-logo {
   font-family: Raleway,sans-serif;
   font-weight: 300;
   font-size: 42px;
+  color: #fbf2da;
+}
+
+.main-nav {
+  color:red;
 }
