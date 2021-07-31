@@ -162,15 +162,17 @@ img {
   background-repeat: no-repeat;   /* изображение не повторяется */
   background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
   background-position: center;   /* центруем изображение */
-
-  height: 650px;
-  width: 1440px;
-/* фон только с размером получился */
+  height: 100%;
 }
 
 .promo-bg {
   background-color: rgba(45, 45, 45, 0.4);
-  /* не растянулся на картинку  */
+  height: 100%;
+  border: 1px solid #000;    /* временно */
+}
+
+.promo-about {
+  margin: 130px 0 235px 0;
 }
 
 .promo-info {
