@@ -64,6 +64,14 @@ body {
   font-family: "Open Sans", sans-serif;   /* после запятой альтернативный шрифт */
 }
 
+h1 {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 116px;
+  text-align: center;
+  color: #ffffff;
+}
+
 h2 {
   font-size: 58px;
   line-height: 68px;   /* расстояние между стороками */
@@ -101,14 +109,14 @@ img {
   font-size: 42px;
 }
 
+.phone {
+  font-family: Roboto;
+  font-size: 28px;
+}
+
 .main-logo,
 .phone {
   color: #fbf2da;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 33px;
   text-decoration: none;   /* без оформления */
 }
 
@@ -148,6 +156,34 @@ img {
 
 
 /* Промо */
+.promo {
+  text-align: center;    /* выравнивание линейного содержимого (текста) по центру в родительском блоке */
+  background-image: url(../images/castle.jpg);
+  background-repeat: no-repeat;   /* изображение не повторяется */
+  background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
+  background-position: center;   /* центруем изображение */
+
+  height: 650px;
+  width: 1440px;
+/* фон только с размером получился */
+}
+
+.promo-bg {
+  background-color: rgba(45, 45, 45, 0.4);
+  /* не растянулся на картинку  */
+}
+
+.promo-info {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  color: #ffffff;
+ }
+
+
+
+
 /* Услуги */
 /* Мероприятия */
 /* Локации */
