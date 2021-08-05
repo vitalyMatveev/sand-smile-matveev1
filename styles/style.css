@@ -77,6 +77,15 @@ h2 {
   line-height: 68px;   /* расстояние между стороками */
 }
 
+p {
+font-family: "Open Sans", sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+text-align: center;
+color: #152B3C;
+}
+
 .container {
   width: 1280px;
   margin: 0 auto;    /* если определены 2 значения то первое отступ сверху второе внешний отступ левой и правой стороны */
@@ -88,6 +97,24 @@ img {
 }
 
 /* Кнопка */
+.btn {
+padding: 15px 30px;
+width: 164px;
+height: 63px;
+bottom: 0px;
+background: #D46240;
+border-radius: 5px;
+}
+
+.btn {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+
 /* Шапка сайта */
 .header {
   background-color: #152b3c;
@@ -175,6 +202,7 @@ img {
   margin: 130px 0 235px 0;
 }
 
+
 .promo-info {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
@@ -187,6 +215,35 @@ img {
 
 
 /* Услуги */
+.services-title {
+  font-family: raleway,sans-serif;
+  font-weight: 300;
+  font-size: 58px;
+  text-align: center;
+  color: #d46240;
+}
+
+.services-item-head {
+  font-family: raleway,sans-serif;
+  font-weight: 300;
+  font-style: 36px;
+  text-align: center;
+  color: #15b2c3;
+}
+
+.services-cost {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  font-style: normal;
+  text-align: center;
+  color: #d46240;
+}
+
+
+
+
+
 /* Мероприятия */
  .social-icon {
    width: 10px;
