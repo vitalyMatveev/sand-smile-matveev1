@@ -106,7 +106,7 @@ background: #D46240;
 border-radius: 5px;
 }
 
-.btn {
+.btn_font {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -117,7 +117,7 @@ border-radius: 5px;
 
 /* Шапка сайта */
 .header {
-  background-color: #152b3c;
+background-color: #152b3c;
 }
 
 .header-wrap {
@@ -250,11 +250,255 @@ border-radius: 5px;
    height: 10px;
  }
 
+ .social-arrow {
+   width: 80px;
+   height: 80px;
+   color: #d46240;
+ }
+
+.social-pointer {
+  width: 25px;
+  height: 25px;
+  color: #c4c4c4;
+}
+
+
 /* Локации */
+.location-header {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 68px;
+  text-align: center;
+  color: #D46240;
+}
+
+.location-elements {
+  background-repeat: no-repeat;   /* изображение не повторяется */
+  background-size: cover;   /* масштабирование изображения максимально большим с сохранением пропорций */
+  background-position: center;   /* центруем изображение */
+  height: 272px;
+  width: 624px;
+}
+
+.location-elements-header {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  color: #FBF2DA;
+  text-align: letf; /*выравнивание текста влево в родительском блоке */
+}
+
+.location-elements-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  color: #fbf2da;
+  text-align: left;
+  text-decoration: none;
+}
+
+.location-wrap a:hover {
+  color:#d46240;
+}
+
+.location-fortes {
+  background-image: url(/images/fortes.png);
+}
+
+.location-lighthouses {
+  background-image: url(/images/osinovets_lighthouses.png);
+}
+
+.location-beach {
+  background-image: url(/images/laska_bitch.png);
+}
+
+.location-park {
+  background-image: url(/images/park_300th_anniversary.png);
+}
+
 /* Команда */
+
+.team-header {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 68px;
+  text-align: center;
+  color: #D46240;
+}
+
+.team-elements {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 297px;
+  width: 297px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #FBF2DA;
+}
+
+.team-about {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  /* align-items: center; */
+
+  color: #152B3C;
+}
+
+.team-about-text {
+  text-align: left;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #152B3C;
+}
+
+.team-lee-1 {
+  background-image: url(/images/sir_lee_wow_1.jpg);
+}
+
+.team-penelope {
+  background-image: url(/images/penelope.jpg);
+}
+
+.team-mr {
+  background-image: url(/images/mr_v_v.jpg);
+}
+
+.team-lee-2 {
+  background-image: url(/images/sir_lee_wow_2.jpg);
+}
+
 /* Контакты */
+.contacts-header {
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 58px;
+  line-height: 68px;
+  text-align: center;
+  color: #D46240;
+}
+
+.contacts-text {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #152B3C;
+
+  width: 1060px;
+  height: 84px;
+  border: 1px solid #000;   /* временно */
+}
+
+.input-name {
+  background-color: #fbf2da;
+  border-radius: 8px;
+}
+
+.input-phone {
+  background-color: #fbf2da;
+  border-radius: 8px;
+}
+
+.input-description {
+  background-color: #fbf2da;
+  border-radius: 8px;
+  width: 842px;
+  height: 167px;
+
+
+/* sand */
+
+background: #FBF2DA;
+border-radius: 8px;
+}
+
+.contacts-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  /* text-align: center; */
+  color: #D46240;
+}
+
+.jackdaw {
+  width: 32px;
+  height: 32px;
+}
+
+.contacts-send {
+
+}
+
+.contacts-btn {
+  width: 842px;
+  height: 63px;
+  background: #D46240;
+  border-radius: 5px;
+  }
+
+.contacts-btn-font {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 33px;
+
+  align-items: center;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+
 /* Подвал */
 
+.footer-wrap {
+    height: 87px;
+  background: #152B3C;
+}
+
+.footer-text {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FBF2DA;
+  /* color: yellow; */
+}
+
+.footer-icon {
+  /* background: #FBF2DA; */
+  width: 26px;
+  height: 26px;
+}
+
+.footer-list {
+  display: flex;
+}
 
 
 
@@ -262,9 +506,3 @@ border-radius: 5px;
 
 
 
-
-
-
-/* .main-nav {
-  color:red;
-} */

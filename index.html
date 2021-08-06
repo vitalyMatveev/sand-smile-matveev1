@@ -29,7 +29,7 @@
             <a href="tel:+78128888888" class="phone">+7 812 888 88 88</a>
             <!-- появится менюшка для звонка после клика мышкой -->
           </div>
-
+        </div>
       </div>
     </header>
 
@@ -57,7 +57,7 @@
             <p>от 8 лет <br> 2 часа <br> до 6 человек</p>
             <div class="services-buy">
               <p class="services-cost">10000 Р</p>
-              <button class="btn">Заказать</button>
+              <button class="btn btn_font">Заказать</button>
             </div>
           </div>
 
@@ -68,7 +68,7 @@
             <p>3 часа <br> до 6 человек<br> 20 фото 10х15</p>
             <div class="services-buy">
               <p class="services-cost">20 000 Р</p>
-              <button class="btn">Заказать</button>
+              <button class="btn btn_font">Заказать</button>
             </div>
           </div>
           <div class="services-item">
@@ -78,7 +78,7 @@
             <p>от 18 лет <br>с 19-00 и до утра <br>много человек<br>много коктейлей</p>
             <div class="services-buy">
               <p class="services-cost">5000 Р/чел</p>
-              <button class="btn">Заказать</button>
+              <button class="btn btn_font">Заказать</button>
             </div>
           </div>
         </section>
@@ -88,12 +88,17 @@
             <h3>Фото с мероприятий</h3>
           </div>
           <div class="social-slider">
+            <div class="social-arrow">
+              <!-- <i class="social_icon" style="background-image: url(/icons/arrow_left.svg);"></i> -->
+              <a href="#"><img src="/icons/arrow_left.svg" alt="arrow_left"></a>
+            </div>
 
-            <!-- <i class="social_icon" style="background-image: url(/icons/arrow_left.svg);"></i> -->
-            <a href="social_icon"><img src="/icons/arrow_left.svg" alt="arrow_left"></a>
             <img src="/images/child_build_castle.jpg" alt="child_build_castle">
-            <a href="social_icon"><img src="/icons/arrow_right.svg" alt="arrow_right"></a>
-            <!-- <i class="social_icon" style="background-image: url(/icons/arrow_right.svg);"></i> -->
+
+            <div class="social-arrow">
+              <!-- <i class="social_icon" style="background-image: url(/icons/arrow_right.svg);"></i> -->
+              <a href="social_icon"><img src="/icons/arrow_right.svg" alt="arrow_right"></a>
+            </div>
 
           </div>
           <div class="social-pointer">
@@ -105,81 +110,110 @@
         </section>
 
         <section class="location">
-          <h3>Локации</h3>
-          <div class="location-left">
-            <div class="location-left-up">
-              <img src="/images/fortes.jpg" alt="fortes">
-              <h3>Пляж Петропавловской крепости</h3>
-              <p>Подробнее о локации</p>
+
+          <div class="location-header">
+            <h3>Локации</h3>
+          </div>
+
+          <div class="location-wrap">
+            <div class="location-elements location-fortes">
+               <h3 class="location-elements-header">Пляж Петропавловской крепости</h3>
+               <a href="#" class="location-elements-text">Подробнее о локации</a>
             </div>
-            <div class="location-left-down">
-              <img src="/images/laska_bitch.jpg" alt="laska_bitch">
-              <h3>Ласковый пляж в Курортном р-не</h3>
-              <p>Подробнее о локации</p>
+            <div class="location-elements location-lighthouses">
+              <h3 class="location-elements-header">Осиновецкий маяк</h3>
+              <a href="#" class="location-elements-text">Подробнее о локации</a>
+            </div>
+            <div class="location-elements location-beach">
+              <h3 class="location-elements-header">Ласковый пляж в Курортном районе</h3>
+              <a href="#" class="location-elements-text">Подробнее о локации</a>
+            </div>
+            <div class="location-elements location-park">
+              <h3 class="location-elements-header">Парк имени 300-летия Санкт-Петербурка</h3>
+              <a href="#" class="location-elements-text">Подробнее о локации</a>
             </div>
           </div>
-          <div class="location-right-up">
-            <img src="/images/osinovets_lighthouses.jpg" alt="osinovets_lighthouses">
-            <h3>Осиновецкий маяк</h3>
-            <p>Подробнее о локации</p>
-          </div>
-          <div class="location-right-down">
-            <img src="/images/park_300th_anniversary.jpg" alt="park_300th_anniversary">
-            <h3>Парк имени 300-летия Санкт-Петербурга</h3>
-            <p>Подробнее о локации</p>
-          </div>
-        </div>
         </section>
+
+
         <section class="team">
-          <h3>Команда</h3>
-          <div class="team-lee-1">
-            <img src="/images/sir_lee_wow_1.jpg" alt="sir_lee_wow_1">
+          <div class="team-header">
+            <h3>Команда</h3>
           </div>
-          <div class="team-penelope">
-            <img src="/images/penelope.jpg" alt="penelope">
+
+          <div class="team-elements team-lee-1">
+            <figcaption>Sir Lee Wow 2</figcaption>
           </div>
-          <div class="team-mr">
-            <img src="/images/mr_v_v.jpg" alt="mr_v_v">
+          <div class="team-elements team-penelope">
+            <figcaption>penelope</figcaption>
+            <!-- <img src="/images/penelope.jpg" alt="penelope"> -->
           </div>
-          <div class="team-lee-2">
-            <img src="/images/sir_lee_wow_2.jpg" alt="sir_lee_wow_2">
+          <div class="team-elements team-mr">
+            <figcaption>Mr.B.B.</figcaption>
+            <!-- <img src="/images/mr_v_v.jpg" alt="mr_v_v"> -->
           </div>
-          <h4>Sir Lee Wow 2</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur beatae dolorem asperiores, corporis omnis!</p>
+          <div class="team-elements team-lee-2">
+            <figcaption>Sir Lee Wow 2</figcaption>
+            <!-- <img src="/images/sir_lee_wow_2.jpg" alt="sir_lee_wow_2"> -->
+          </div>
+          <div class="team-about">
+            <h3>Sir Lee Wow 2</h3>
+            <p class="team-about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur beatae dolorem asperiores, corporis omnis!</p>
+          </div>
         </section>
+
         <section class="contacts">
-          <h2>Контакты</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, repellat.</p>
-          <div class="contacts-info">
-            <div class="contacts-name-phone">
-              <div class="contacts-name">
-                <p>Имя</p>
-                <p>lorem1</p>
-              </div>
-              <div class="contacts-phone"></div>
-              <p>Телефон</p>
-              <p>lorem1</p>
+          <div class="wrap">
+            <div class="contacts-header">
+              <h2>Контакты</h2>
             </div>
-            <div class="contacts-whats">
-              <p>ЧаГо надо?</p>
-              <p>lorem1</p>
+            <div class="contacts-text">
+              <p>Остались вопросы? Позвоните нам по телефону +7 812 888-88-88, напишите в watsapp или заполните форму и мы ответим вам в watsapp по указанному номеру телефона. </p>
             </div>
-            <div class="contacts-approval">
-              <a href="/icons/jackdaw.svg"><img src="" alt="галочка"></a>
+            <div class="contacts-info">
+
+            <div class="contacts-name">
+              <p class="contacts-title">Имя</p>
+              <input class="input-name" type="text" name="ffdsdf" id="contacts-name">
+            </div>
+
+            <div class="contacts-phone">
+              <p class="contacts-title">Телефон</p>
+              <input class="input-phone" type="text" name="ffdsdf" id="contacts-phone">
+
+            </div>
+            <div class="contacts-description">
+              <p class="contacts-title">ЧаГо надо?</p>
+              <input class="input-description" type="text" name="ffdsdf" id="contacts-description">
+            </div>
+
+            <div class="contacts-jackdaw">
+                    <a href=""><img class="jackdaw" src="/icons/jackdaw.svg" alt="галочка"></a>
+            </div>
+            <div class="contacts-politics">
               <p>Даю согласие на обработку персональных данных в соответствии с </p>
               <a href="#"><p>политикой обработки персональных данных</p></a>
-              <button>Отправить</button>
+            </div>
+            <div class="contacts-send">
+              <button class="contacts-btn contacts-btn-font">Отправить</button>
             </div>
           </div>
         </section>
     </main>
-    <footer>
-      <p>Ничего не защищено</p>
-      <ul>
-        <li>instagramm</li>
-        <li>facebook</li>
-        <li>telegramm</li>
-      </ul>
+
+
+    <footer class="footer">
+      <div class="footer-wrap">
+
+          <p class="footer-text">Ничего не защищено</p>
+
+
+        <ul class="footer-list">
+          <li><a href=""><img class="footer-icon" src="/icons/icon_instagram.svg" alt=""></a></li>
+          <li><a href=""><img class="footer-icon" src="/icons/icon_facebook.svg" alt=""></a></li>
+          <li><a href=""><img class="footer-icon" src="/icons/icon_telegramm.svg" alt=""></a></li>
+        </ul>
+      </div>
     </footer>
 </body>
 </html>
