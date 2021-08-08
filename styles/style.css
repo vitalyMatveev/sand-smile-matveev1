@@ -226,7 +226,7 @@ background-color: #152b3c;
 .services-item-head {
   font-family: raleway,sans-serif;
   font-weight: 300;
-  font-style: 36px;
+  font-size: 36px;
   text-align: center;
   color: #15b2c3;
 }
@@ -288,7 +288,8 @@ background-color: #152b3c;
   font-weight: normal;
   font-size: 40px;
   color: #FBF2DA;
-  text-align: letf; /*выравнивание текста влево в родительском блоке */
+  /* text-align: letf; */
+   /*выравнивание текста влево в родительском блоке */
 }
 
 .location-elements-text {
@@ -339,7 +340,9 @@ background-color: #152b3c;
   background-position: center;
   height: 297px;
   width: 297px;
+}
 
+.team-elements-text {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
